@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "created": "2023-01-06T20:40:37.903",
+    "database": {
+      "productVersion": "5.5.5-10.4.25-MariaDB",
+      "shortName": "mariadb",
+      "majorVersion": "5",
+      "minorVersion": "5",
+      "user": "root@localhost",
+      "productName": "MySQL",
+      "url": "jdbc:mysql://localhost:3306"
+    },
+    "snapshotControl": {
+      "snapshotControl": {
+        "includedType": [
+          "liquibase.structure.core.Catalog",
+          "liquibase.structure.core.Column",
+          "liquibase.structure.core.ForeignKey",
+          "liquibase.structure.core.Index",
+          "liquibase.structure.core.PrimaryKey",
+          "liquibase.structure.core.Schema",
+          "liquibase.structure.core.Sequence",
+          "liquibase.structure.core.Table",
+          "liquibase.structure.core.UniqueConstraint",
+          "liquibase.structure.core.View"
+        ]
+        
+      }
+    }
+  }
+}
